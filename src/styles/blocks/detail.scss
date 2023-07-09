@@ -39,7 +39,7 @@
     height: 100%;
     object-fit: cover;
 
-    @include hover (transform, scale(1.1));
+    @include hover (transform, scale(1.05));
   }
 
   &__content {
@@ -70,10 +70,10 @@
   }
 
   &.active.left {
-    @include appearOnScrollLeft
+    @include appearOnScrollLeft;
   }
 
   &.active.right {
-    @include appearOnScrollRight
+    @include appearOnScrollRight;
   }
 }

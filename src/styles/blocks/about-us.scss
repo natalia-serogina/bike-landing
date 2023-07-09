@@ -1,8 +1,6 @@
 .about-us {
   @include pageGrid;
 
-
-
   &__title {
     margin-bottom: 32px;
     grid-column: 1 /-1;
@@ -19,7 +17,6 @@
     &.active {
       @include appearOnScrollLeft;
     }
-
   }
 
   &__content {
@@ -38,8 +35,5 @@
     &.active {
       @include appearOnScrollRight;
     }
-
   }
 }
-
-

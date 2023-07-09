@@ -5,7 +5,7 @@
 
   @include onDesktop {
     background-size: cover;
-    background-position: center
+    background-position: center;
   }
 
   &__content {
@@ -62,11 +62,12 @@
     line-height: 100%;
     letter-spacing: -1.5px;
 
-  @include onTablet {
-    font-size: 64px;
-  }
-  @include onDesktop {
-    font-size: 80px;
-  }
+    @include onTablet {
+      font-size: 64px;
+    }
+    
+    @include onDesktop {
+      font-size: 80px;
+    }
   }
 }
